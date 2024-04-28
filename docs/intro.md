@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Landing page'
+sidebar_label: 'Diffusion models for Histopathology'
 sidebar_position: 1
 ---
 
