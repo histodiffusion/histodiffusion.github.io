@@ -24,12 +24,17 @@ Welcome! We are the [computer vision lab](https://www3.cs.stonybrook.edu/~cvl/in
           </a>
         </td>
         <td class="circle">
-          <img src="./img/favicon.ico" alt="Image Srikar" class="circle"></img></td>
-        <td class="circle">
-          <img src="./img/favicon.ico" alt="Image Alex" class="circle"></img>
+          <a href="https://srikarym.github.io" target="_blank">
+            <img src="./img/people/srikar.jpg" alt="Image Srikar" class="circle"></img>
+          </a>
         </td>
         <td class="circle">
-          <img src="./img/favicon.ico" alt="Image Srikar" class="circle"></img>
+          <img src="./img/favicon.ico" alt="Image Quan" class="circle"></img>
+        </td>
+        <td class="circle">
+          <a href="https://www3.cs.stonybrook.edu/~samaras/" target="_blank">
+            <img src="./img/people/dim6cr.jpg" alt="Image Dimitris" class="circle"></img>
+          </a>
         </td>
     </tr>
     <tr class="no-bg">
