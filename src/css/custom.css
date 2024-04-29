@@ -39,24 +39,28 @@
   
 
 /* Custom image table */
-.image-table{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+table.image-table{
+    width: 100%;
+    border-collapse: collapse;
 }
-.tr-image {
+tr.no-bg {
     border: none;
     background-color: rgba(0,0,0,0) !important;
 }
-.td-image {
+td.centered {
     border: none;
     text-align: center;
     background-color: rgba(0,0,0,0);
+    font-size: 16px;
 }
-.img.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* Makes the image round */
-    object-fit: cover;  /* Ensures the image covers the space without stretching */
+td.circle {
+    border: none;  /* Explicitly removes any border */
+}
+img.circle {
+    width: 8vw;  /* Adjust the size of the image */
+    height: auto;  /* Adjust the size of the image */
+    border-radius: 50%;  /* This creates the circle */
+    object-fit: cover;  /* Ensures the image covers the area without being distorted */
+    display: block;  /* Removes bottom space/gap */
 }
 

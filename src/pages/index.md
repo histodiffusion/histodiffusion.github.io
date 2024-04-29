@@ -15,17 +15,29 @@ Welcome! We are the [computer vision lab](https://www3.cs.stonybrook.edu/~cvl/in
 <h1 style={{fontSize: '32px', textAlign: 'center'}}>People</h1>
 <br/><br/>
 
+<center>
 <table class="image-table">
-    <tr class="tr-image">
-        <td class="td-image"><img src="./img/favicon.ico" alt="Image Alex" class="circle"></img></td>
-        <td class="td-image"><img src="./img/favicon.ico" alt="Image Srikar" class="circle"></img></td>
-        <td class="td-image"><img src="./img/favicon.ico" alt="Image Quan" class="circle"></img></td>
-        <td class="td-image"><img src="./img/favicon.ico" alt="Image Dimitris" class="circle"></img></td>
+    <tr class="no-bg">
+        <td class="circle">
+          <a href="https://alexgraikos.github.io" target="_blank">
+            <img src="./img/people/alex.jpg" alt="Image Alex" class="circle"></img>
+          </a>
+        </td>
+        <td class="circle">
+          <img src="./img/favicon.ico" alt="Image Srikar" class="circle"></img></td>
+        <td class="circle">
+          <img src="./img/favicon.ico" alt="Image Alex" class="circle"></img>
+        </td>
+        <td class="circle">
+          <img src="./img/favicon.ico" alt="Image Srikar" class="circle"></img>
+        </td>
     </tr>
-    <tr class="tr-image">
-        <td class="td-image">Alexandros Graikos</td>
-        <td class="td-image">Srikar Yellapragada</td>
-        <td class="td-image">Minh-Quan Le</td>
-        <td class="td-image">Dimitris Samaras</td>
+    <tr class="no-bg">
+        <td class="centered">Alexandros Graikos</td>
+        <td class="centered">Srikar Yellapragada</td>
+        <td class="centered">Minh-Quan Le</td>
+        <td class="centered">Dimitris Samaras</td>
     </tr>
 </table>
+</center>
+
