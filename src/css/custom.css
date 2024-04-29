@@ -9,7 +9,7 @@
 }
 
 .infobox {
-    background-color: var(--background-color); /* Light gray background */
+    background-color: var(--background-color); /* Background changes with theme */
     border: 1px solid #d0d0d0; /* Subtle border */
     padding: 15px;
     margin: 15px 0;         /* Space above and below the box */
@@ -37,3 +37,26 @@
     font-weight: bold; /* Make the text bold */ 
   }
   
+
+/* Custom image table */
+.image-table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tr-image {
+    border: none;
+    background-color: rgba(0,0,0,0) !important;
+}
+.td-image {
+    border: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+}
+.img.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;  /* Ensures the image covers the space without stretching */
+}
+

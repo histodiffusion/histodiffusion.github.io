@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'CVPR-24-SSL-guidance'
+sidebar_label: 'Large Image Generation - CVPR 2024'
 sidebar_position: 3
 ---
 
@@ -22,7 +22,7 @@ To synthesize high-fidelity samples, diffusion models typically require auxiliar
 
 ## Model
 
-![CVPR_figure](/img/cvpr_method.jpg)
+![CVPR_figure](/img/cvpr24/cvpr_method.jpg)
 
 Overview of our method. 
 
@@ -38,7 +38,7 @@ Overview of our method.
 
 ### Qualitative results
 
-![CVPR_res](/img/cvpr_real_synth.png)
+![CVPR_res](/img/cvpr24/cvpr_real_synth.png)
 
 (Top) Patches (256 × 256) from our models, and the corresponding reference real patches used to generate them. The SSLguided LDM replicates the semantics of the reference patch. 
 
@@ -51,26 +51,35 @@ We preserve the global arrangement of the semantics defined in the reference ima
 
 For patches, we measure FID against the real images (*Vanilla FID*). For large images, we follow the evaluation strategy of MultiDiffusion [3] and use FID to compare the distribution of 256 × 256 crops from synthesized large images to that of real image patches of the same size (*Crop FID*). We also measure FID directly between the large images and ground truth data using CLIP [35] (*CLIP FID*).
 
-<p align="center">
-<img src="/img/cvpr_fid_scores.png" alt="drawing" style={{width:"500px"}} />
-</p>
+<center>
+<img src="/img/cvpr24/cvpr_fid_scores.png" alt="drawing" style={{width:"500px"}} />
+</center>
 
 Our patch-level BRCA model is on par with SoTA [49] (7.64 at 10 ×). “CLIP FID” and “Embedding Similarity” demonstrate our large images’ realism and contextual accuracy.
 
 ### Image Augmentation results
 
-![CVPR_figure](/img/cvpr_res_1.png)
+![CVPR_figure](/img/cvpr24/cvpr_res_1.png)
 
 The inclusion of synthetic data consistently enhances AUC across various MIL architectures and BRCA tasks. The dataset contains 1000 real images, so “10% + synthetic” indicates training with 100 real and 100 synthetic WSIs, with the remainder used for testing.
 
 
-<p align="center">
-<img src="/img/cvpr_res_2.png" alt="drawing" style={{width:"500px"}} />
-</p>
+<center>
+<img src="/img/cvpr24/cvpr_res_2.png" alt="drawing" style={{width:"500px"}} />
+</center>
 
 Our data augmentations provide notable improvements for the BACH (a) and CRC-VAL-HE (b) datasets. Notably, the diffusion training data does not overlap with the data of the augmented datasets.
 
 
+### Text-to-Large image generation 
+
+Although the grid of self-supervised embeddings z cannot be manipulated in a human-interpretable manner, we argue that it is simple to assert more control over the generated images. This control can be attained by training auxiliary models $p(z | c)$ that translate higher-level conditioning signals, such as text captions $c$, to learned patch representations $z$.
+
+We train an auxilliary diffusion model that learns to map text conditions (using pathology Vision-Language models) to a grid of self-supervised embeddings and showcase examples of text-to-large image generation.
+
+<center>
+<img src="/img/cvpr24/cvpr_text_to_large.jpg" alt="drawing"/>
+</center>
 
 ## Citation
 ```bibtex
