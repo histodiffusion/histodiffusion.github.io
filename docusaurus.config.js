@@ -8,12 +8,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Diffusion models for Histopatholgoy',
+  tagline: 'CVLab @ Stony Brook',
+  // favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  // url: 'https://your-docusaurus-site.example.com',
+  url: 'histodiffusion.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -63,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/histodiff-social-card.png',
       navbar: {
-        title: 'Diffusion models for Histopathology',
+        title: 'Diffusion models for Histopathology | CVLab @ Stony Brook University',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
