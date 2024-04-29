@@ -9,14 +9,6 @@
   align-items: center;    /* Center horizontally */
   }
 
-html[data-theme='dark'] {
-.infobox {
-    background-color: #202020; /* Adjust dark background color */
-    color: #e0e0e0;           /* Adjust text color */
-    border-color: #404040;    /* Adjust border color */
-}
-}
-
 .button_class{
     background-color: #4CAF50; /* Green */
     border: none;
