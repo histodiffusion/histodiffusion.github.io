@@ -83,7 +83,7 @@ const config = {
             position: 'left',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: 'https://www3.cs.stonybrook.edu/~cvl/', label: 'CVLab @ Stony Brook University', position: 'left'},
+          // {to: 'https://www3.cs.stonybrook.edu/~cvl/', label: 'CVLab @ Stony Brook University', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
