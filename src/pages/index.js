@@ -7,7 +7,7 @@ import DarkCard from '../../static/img/histodiff-social-card-dark.png'
 
 export default function Hello() {
   return (
-    <Layout title="Introduction" description="Intro page">
+    <Layout title="Home" description="Intro page">
       <div
         style={{
           display: 'flex',
