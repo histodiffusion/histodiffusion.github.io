@@ -82,38 +82,17 @@ const config = {
             href: 'https://www3.cs.stonybrook.edu/~cvl/',
             position: 'left',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {to: 'https://www3.cs.stonybrook.edu/~cvl/', label: 'CVLab @ Stony Brook University', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
-      // footer: {
-      //  style: 'dark',
-      //  links: [
-      //    {
-      //      title: 'Links',
-      //      items: [
-      //        {
-      //          label: 'GitHub',
-      //          href: 'https://github.com/cvlab-stonybrook',
-      //        },
-      //        {
-      //          label: 'CVLab @ StonyBrook',
-      //          href: 'https://www3.cs.stonybrook.edu/~cvl/',
-      //        },
-      //      ],
-      //    },
-      //  ],
-      //  copyright: `Built with Docusaurus.`,
-      //},
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      }
+      },
+      colorMode: {
+        defaultMode: 'light', // Or 'light' if your default is light mode
+        respectPrefersColorScheme: true,
+        // ...
+      },
     }),
 };
 

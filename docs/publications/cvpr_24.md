@@ -12,8 +12,8 @@ sidebar_position: 3
 Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras
 
 <div class="button-group"> 
-    <button class="button_class" onClick={() => window.location.href = 'https://github.com/cvlab-stonybrook/Large-Image-Diffusion'}>Code</button> 
-    <button class="button_class" onClick={() => window.location.href = 'https://arxiv.org/abs/2312.07330'}>arXiv</button> 
+  <button class="button_class" onClick={() => window.open('https://github.com/cvlab-stonybrook/Large-Image-Diffusion', '_blank')}>Code</button> 
+    <button class="button_class" onClick={() => window.open('https://arxiv.org/abs/2312.07330', '_blank') }>arXiv</button> 
   </div>
 </div>
 

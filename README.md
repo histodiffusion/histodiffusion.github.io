@@ -26,7 +26,6 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-
 ```
 $ npm run deploy
 ```

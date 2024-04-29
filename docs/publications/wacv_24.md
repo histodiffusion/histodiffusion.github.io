@@ -12,10 +12,9 @@ sidebar_position: 2
 Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras
 
 <div class="button-group"> 
-    <button class="button_class" onClick={() => window.location.href = 'https://github.com/cvlab-stonybrook/PathLDM'}>Code</button> 
-    <button class="button_class" onClick={() => window.location.href = 'https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf'}>Paper</button>
-    <button class="button_class" onClick={() => window.location.href = 'https://arxiv.org/abs/2309.00748'}>arXiv</button> 
-
+    <button class="button_class" onClick={() => window.open('https://github.com/cvlab-stonybrook/PathLDM')}>Code</button> 
+    <button class="button_class" onClick={() => window.open('https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf')}>Paper</button>
+    <button class="button_class" onClick={() => window.open('https://arxiv.org/abs/2309.00748')}>arXiv</button> 
   </div>
 </div>
 
