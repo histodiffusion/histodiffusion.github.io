@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Diffusion models for Histopatholgoy',
+  title: 'Diffusion models for Histopatholgy',
   tagline: 'CVLab @ Stony Brook',
   // favicon: 'img/favicon.ico',
   favicon: 'img/logo.png',
@@ -66,7 +66,6 @@ const config = {
       // Replace with your project's social card
       image: 'img/histodiff-social-card-light.png',
       navbar: {
-        title: 'Home',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -89,6 +88,7 @@ const config = {
             position: 'left',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://www3.cs.stonybrook.edu/~cvl/', label: 'CVLab @ Stony Brook University', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
