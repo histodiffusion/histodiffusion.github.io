@@ -1,0 +1,29 @@
+.infobox {
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #d0d0d0; /* Subtle border */
+    padding: 15px;
+    margin: 15px 0;         /* Space above and below the box */
+    border-radius: 5px;     /* Slightly rounded corners */
+    display: flex;          
+  flex-direction: column; /* Arrange items vertically */ 
+  align-items: center;    /* Center horizontally */
+  }
+
+.button_class{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.conference-title {
+    font-size: 1.2em; /* Increase font size */
+    font-weight: bold; /* Make the text bold */ 
+  }
+  
