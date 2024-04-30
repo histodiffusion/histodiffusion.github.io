@@ -7,7 +7,7 @@ import DarkCard from '../../static/img/histodiff-social-card-dark.png'
 
 import Content from './index.md';
 
-export default function Hello() {
+export default function Home() {
   return (
     <Layout title="Home" description="Intro page">
       <div

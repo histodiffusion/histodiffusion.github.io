@@ -57,4 +57,3 @@ Welcome! We are the [computer vision lab](https://www3.cs.stonybrook.edu/~cvl/in
     </tr>
 </table>
 </center>
-

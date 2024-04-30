@@ -33,9 +33,13 @@
     border-radius: 12px;
 }
 .conference-title {
-    font-size: 1.2em; /* Increase font size */
+    font-size: 1.8em; /* Increase font size */
     font-weight: bold; /* Make the text bold */ 
-  }
+}
+.authors {
+    font-size: 1.5em; /* Increase font size */
+    text-align: center;
+}
   
 
 /* Custom image table */
@@ -61,6 +65,6 @@ img.circle {
     height: auto;  /* Adjust the size of the image */
     border-radius: 50%;  /* This creates the circle */
     object-fit: cover;  /* Ensures the image covers the area without being distorted */
-    display: block;  /* Removes bottom space/gap */
+    display: flex;  /* Removes bottom space/gap */
 }
 

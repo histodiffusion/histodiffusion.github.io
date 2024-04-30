@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Text Conditioned LDM - WACV 2024'
-sidebar_position: 2
 ---
 
 # PathLDM: Text Conditioned Latent Diffusion Model for Histopathology
@@ -9,7 +8,9 @@ sidebar_position: 2
 
   <span class="conference-title">WACV 2024</span>
 
+<span class="authors">
 Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras
+</span>
 
 <div class="button-group"> 
     <button class="button_class" onClick={() => window.open('https://github.com/cvlab-stonybrook/PathLDM')}>Code</button> 

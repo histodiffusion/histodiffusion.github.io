@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Large Image Generation - CVPR 2024'
-sidebar_position: 3
 ---
 
 # Learned representation-guided diffusion models for large-image generation
@@ -9,7 +8,9 @@ sidebar_position: 3
 
 <span class="conference-title">CVPR 2024</span>
 
+<span class="authors">
 Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras
+</span>
 
 <div class="button-group"> 
   <button class="button_class" onClick={() => window.open('https://github.com/cvlab-stonybrook/Large-Image-Diffusion', '_blank')}>Code</button> 
