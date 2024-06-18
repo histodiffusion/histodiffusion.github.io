@@ -2,6 +2,11 @@ Welcome! We are the [computer vision lab](https://www3.cs.stonybrook.edu/~cvl/in
 
 <h1 style={{fontSize: '32px', textAlign: 'center'}}>Recent Publications</h1>
 <br/><br/>
+
+- ## [ZoomLDM: Latent Diffusion Model for multi-scale conditional histopathology image generation](./docs/publications/cvprw_24)
+  Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras, \
+  Computer Vision and Pattern Recognition Conference Workshop (CVPRW), 2024
+
 - ## [Learned Representation-Guided Diffusion Models for Large-Image Generation](./docs/publications/cvpr_24)
   Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras, \
   Computer Vision and Pattern Recognition Conference (CVPR), 2024

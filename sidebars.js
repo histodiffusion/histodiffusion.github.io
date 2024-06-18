@@ -21,7 +21,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Publications',
-      items: ['publications/cvpr_24', 'publications/wacv_24'],
+      items: ['publications/cvprw_24', 'publications/cvpr_24', 'publications/wacv_24'],
     },
   ],
  
