@@ -61,4 +61,4 @@ We evaluate the EDM by hierarchically synthesizing 10,000 patches at all magnifi
 
 ![CVPRW_res](/img/cvpr24w/zooming.png)
 
-we demonstrate a decompression pipeline, where we re-synthesize patches at all magnifications of the image, stored as SSL embeddings. The decompression is performed by initializing the diffusion process at a single magnification from an intermediate timestep ($t=500$), using an upsampled version of the previous magnification patch.
+We demonstrate a decompression pipeline, where we re-synthesize patches at all magnifications of the image, stored as SSL embeddings. The decompression is performed by initializing the diffusion process at a single magnification from an intermediate timestep ($t=500$), using an upsampled version of the previous magnification patch.
