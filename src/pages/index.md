@@ -3,6 +3,10 @@ Welcome! We are the [computer vision lab](https://www3.cs.stonybrook.edu/~cvl/in
 <h1 style={{fontSize: '32px', textAlign: 'center'}}>Recent Publications</h1>
 <br/><br/>
 
+- ## [∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions](./docs/publications/eccv_24)
+  Minh-Quan Le⋆, Alexandros Graikos⋆, Srikar Yellapragada, Rajarsi Gupta, Joel Saltz, Dimitris Samaras, \
+  European Conference on Computer Vision (ECCV), 2024
+
 - ## [ZoomLDM: Latent Diffusion Model for multi-scale conditional histopathology image generation](./docs/publications/cvprw_24)
   Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras, \
   Computer Vision and Pattern Recognition Conference Workshop (CVPRW), 2024
@@ -50,10 +54,10 @@ Welcome! We are the [computer vision lab](https://www3.cs.stonybrook.edu/~cvl/in
     </tr>
     <tr class="no-bg">
         <td class="circle">
-          <img src="./img/favicon.ico" alt="Image Alex" class="circle"></img>
+          <img src="./img/people/prateek.jpg" alt="Image Prateek" class="circle"></img>
         </td>
         <td class="circle">
-          <img src="./img/favicon.ico" alt="Image Srikar" class="circle"></img>
+          <img src="./img/people/joel.jpg" alt="Image Joel" class="circle"></img>
         </td>
     </tr>
     <tr class="no-bg">
