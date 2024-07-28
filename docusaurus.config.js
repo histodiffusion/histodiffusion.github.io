@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Diffusion models for Histopatholgy',
+  title: 'Generative models for Histopatholgy',
   tagline: 'CVLab @ Stony Brook',
   // favicon: 'img/favicon.ico',
   favicon: 'img/logo.png',
