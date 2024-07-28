@@ -21,8 +21,14 @@ div.redlink a:visited {
 }
 
 
+@font-face {
+  font-family: customFont;
+  src: url(../../static/font/Brutel-Bold.otf);
+}
+
+
 h1 {
-  font-family: "Brutel",  monospace;
+  font-family: customFont, monospace;
 }
 
 .infobox {
@@ -57,7 +63,7 @@ div.infobox p {
 .conference-title {
     font-size: 1.8em; /* Increase font size */
     font-weight: bold; /* Make the text bold */ 
-      font-family: "Brutel",  monospace;
+      font-family: customFont,  monospace;
 }
 .authors {
     font-size: 1.4em; /* Increase font size */
@@ -92,7 +98,7 @@ img.circle {
 }
 
 h2 {
-    font-family: "Brutel",  monospace;
+    font-family: customFont,  monospace;
 }
 
 p {
