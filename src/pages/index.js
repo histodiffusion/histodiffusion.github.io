@@ -15,7 +15,8 @@ export default function Home() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '20vh',
+          height: '36vh',
+          margin: '1vw 0 0.0',
         }}>
         <ThemedImage
           alt="Card Image"

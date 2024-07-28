@@ -17,6 +17,7 @@ Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Rajarsi Gupta, Joel
   </div>
 </div>
 
+
 ## Abstract
 Diffusion models have revolutionized image generation, yet several challenges restrict their application in digital pathology. Existing approaches struggle with precise control over the appearance of image patches, are typically confined to generating images at a single magnification level, and face limitations due to the lack of large annotated datasets which have been essential to the success of diffusion models in the natural image domain. Self-supervised encoders have emerged as a viable workaround for the annotation deficit, yet their effective application across varying magnifications presents its own set of challenges. We present ZoomLDM, a latent diffusion model tailored for generating histopathology images across a spectrum of magnifications. Central to our approach is a novel magnification-aware conditioning mechanism, that leverages a patch summarization CNN, jointly trained with the diffusion model. This CNN processes self-supervised embeddings, retaining vital information and enabling controllable image generation. ZoomLDM achieves state-of-the-art image generation quality, especially in lower magnifications where there is limited data availability. Furthermore, we introduce a second model to generate the embeddings consumed by the conditioning mechanism, eliminating the dependency on recycling existing embeddings and facilitating the generation of novel images. 
 

@@ -1,28 +1,40 @@
-Welcome! We are the [computer vision lab](https://www3.cs.stonybrook.edu/~cvl/index.html) at Stony Brook University. Under the supervision of professor [Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/) we are aiming to develop diffusion generative models for the Histopathology domain.
+<br/>
+<br/>
+<br/>
+<br/>
+<h1 style={{fontSize: '36px', textAlign: 'center'}}>Publications</h1>
+***
+<br/>
 
-<h1 style={{fontSize: '32px', textAlign: 'center'}}>Recent Publications</h1>
-<br/><br/>
+<div class="redlink">
 
-- ## [∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions](./docs/publications/eccv_24)
+- # [∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions](./docs/publications/eccv_24)
   Minh-Quan Le⋆, Alexandros Graikos⋆, Srikar Yellapragada, Rajarsi Gupta, Joel Saltz, Dimitris Samaras, \
   European Conference on Computer Vision (ECCV), 2024
+  <br />
 
-- ## [ZoomLDM: Latent Diffusion Model for multi-scale conditional histopathology image generation](./docs/publications/cvprw_24)
+- # [ZoomLDM: Latent Diffusion Model for multi-scale conditional histopathology image generation](./docs/publications/cvprw_24)
   Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras, \
   Computer Vision and Pattern Recognition Conference Workshop (CVPRW), 2024
+  <br />
 
-- ## [Learned Representation-Guided Diffusion Models for Large-Image Generation](./docs/publications/cvpr_24)
+- # [Learned Representation-Guided Diffusion Models for Large-Image Generation](./docs/publications/cvpr_24)
   Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras, \
   Computer Vision and Pattern Recognition Conference (CVPR), 2024
+  <br />
 
-- ## [PathLDM: Text Conditioned Latent Diffusion Model for Histopathology](./docs/publications/wacv_24)
+- # [PathLDM: Text Conditioned Latent Diffusion Model for Histopathology](./docs/publications/wacv_24)
   Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras, \
   Winter Conference on Applications of Computer Vision (WACV), 2024
+  <br />
+
+</div>
 
 <br/><br/>
 
-<h1 style={{fontSize: '32px', textAlign: 'center'}}>People</h1>
-<br/><br/>
+<h1 style={{fontSize: '36px', textAlign: 'center'}}>People</h1>
+***
+<br/>
 
 <center>
 <table class="image-table">
