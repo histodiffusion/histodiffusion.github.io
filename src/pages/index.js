@@ -12,11 +12,11 @@ export default function Home() {
     <Layout title="Home" description="Intro page">
       <div
         style={{
-          display: 'flex',
+          display: 'inline-flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '36vh',
-          margin: '1vw 0 0.0',
+          height: '30vh',
+          margin: '2vh 0 2vh 0',
         }}>
         <ThemedImage
           alt="Card Image"
@@ -34,10 +34,11 @@ export default function Home() {
           justifyContent: 'center',
           alignItems: 'center',
           textAlign: 'left',
-          margin: '0 25vw 0.25vw',
-          fontSize: '18px',
+          margin: '0 20vw 0 20vw',
+          fontSize: '1.3em',
         }}
       >
+        <br/>
         <Content />
       </div>
     </Layout>

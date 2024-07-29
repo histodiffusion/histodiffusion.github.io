@@ -8,11 +8,18 @@
     --background-color: #121212;
 }
 
+:root {
+    --doc-sidebar-width: 20vw !important;
+}
+
+
+
 div.redlink a:link {
   color: #990000;
   background-color: transparent;
   text-decoration: none;
 }
+
 
 div.redlink a:visited {
   color: #890000;
@@ -83,18 +90,15 @@ tr.no-bg {
 td.centered {
     border: none;
     text-align: center;
-    background-color: rgba(0,0,0,0);
-    font-size: 20px;
 }
 td.circle {
     border: none;  /* Explicitly removes any border */
 }
 img.circle {
-    width: 10vw;  /* Adjust the size of the image */
-    height: auto;  /* Adjust the size of the image */
+    width: 12vw;  /* Adjust the size of the image */
+    height: 12vw;  /* Adjust the size of the image */
     border-radius: 50%;  /* This creates the circle */
     object-fit: cover;  /* Ensures the image covers the area without being distorted */
-    display: flex;  /* Removes bottom space/gap */
 }
 
 h2 {
