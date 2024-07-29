@@ -12,7 +12,12 @@
     --doc-sidebar-width: 20vw !important;
 }
 
-
+[data-theme='dark'] .light-mode-only {
+    display: none
+}
+[data-theme='light'] .dark-mode-only {
+    display: none
+}
 
 div.redlink a:link {
   color: #990000;

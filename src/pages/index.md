@@ -1,3 +1,12 @@
+<div class="light-mode-only">
+    <img src="./img/histodiff-social-card-light.png" class="100%"></img>
+</div>
+<div class="dark-mode-only">
+    <img src="./img/histodiff-social-card-dark.png" class="100%"></img>
+</div>
+<br/>
+<br/>
+
 <h1 style={{fontSize: '36px', textAlign: 'center'}}>Publications</h1>
 ***
 <br/>

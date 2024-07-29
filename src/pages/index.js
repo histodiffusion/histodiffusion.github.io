@@ -12,24 +12,6 @@ export default function Home() {
     <Layout title="Home" description="Intro page">
       <div
         style={{
-          display: 'inline-flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '30vh',
-          margin: '2vh 0 2vh 0',
-        }}>
-        <ThemedImage
-          alt="Card Image"
-          width='auto'
-          height='100%'
-          sources={{
-            light: LightCard,
-            dark: DarkCard,
-          }}
-        />
-      </div>
-      <div
-        style={{
           display: 'block',
           justifyContent: 'center',
           alignItems: 'center',
