@@ -1,8 +1,8 @@
 <div class="light-mode-only">
-    <img src="./img/histodiff-social-card-light.png" class="100%"></img>
+    <img src="./img/histodiff-social-card-light.png" style={{ maxWidth: '100%', maxHeight: '30vh', display: 'block', margin: '0 auto'}} />
 </div>
 <div class="dark-mode-only">
-    <img src="./img/histodiff-social-card-dark.png" class="100%"></img>
+    <img src="./img/histodiff-social-card-dark.png" style={{ maxWidth: '100%', maxHeight: '30vh', display: 'block', margin: '0 auto'}} ></img>
 </div>
 <br/>
 <br/>
