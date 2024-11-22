@@ -38,6 +38,9 @@ Overview of our method.
 
 ![CVPRW_res](/img/cvpr24w/samples.png)
 
+
+<a href="/pages/zoomldm_large_images/large_images.html">More large images</a>
+
 Synthetic patches ($256 \times 256$ pixel) from ZoomLDM, juxtaposed with the reference (real) images used to generate them.
 
 Across all magnifications, ZoomLDM demonstrates consistent preservation semantic features of the reference patches.
