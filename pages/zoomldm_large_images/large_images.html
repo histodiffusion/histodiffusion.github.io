@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Magnifier</title>
+
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/css/magnify.min.css"
+    integrity=
+    "sha512-wzhF4/lKJ2Nc8mKHNzoFP4JZsnTcBOUUBT+lWPcs07mz6l
+    K3NpMH1NKCKDMarjaw8gcYnSBNjjllN4kVbKedbw=="
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Image Magnifier</h1>
+
+<p>Move your mouse over the image</p>
+
+<img src=
+"brca_013.jpeg"
+class="zoom"
+data-magnify-src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220316232110/gfglarge.jpg" />
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous">
+</script>
+
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/js/jquery.magnify.min.js"
+integrity=
+"sha512-YKxHqn7D0M5knQJO2xKHZpCfZ+/Ta7qpEHgADN+AkY2U2
+Y4JJtlCEHzKWV5ZE87vZR3ipdzNJ4U/sfjIaoHMfw=="
+crossorigin="anonymous" 
+referrerpolicy="no-referrer">
+</script>
+
+<script>
+$(document).ready(function () {
+$(".zoom").magnify();
+});
+</script>
+</body>
+
+</html>
