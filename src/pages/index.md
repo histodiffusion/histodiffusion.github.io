@@ -17,11 +17,14 @@
   Preprint, 2024_
   <br />
 
+<!--
+Uncomment when ready
 # [Gen-SIS: Generative Self-augmentation Improves Self-supervised Learning](./docs/publications/gensis) <span class="badge text-bg-success">New</span>
   _Varun Belagali*, Srikar Yellapragada*, Alexandros Graikos, Saarthak Kapse, Zilinghan Li, Tarak Nath Nandi, Ravi K Madduri,\
   Prateek Prasanna, Joel Saltz, Dimitris Samaras,\
   Preprint, 2024_
   <br />
+-->
 
 # [∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions](./docs/publications/infty_brush)
   _Minh-Quan Le⋆, Alexandros Graikos⋆, Srikar Yellapragada, Rajarsi Gupta, Joel Saltz, Dimitris Samaras, \

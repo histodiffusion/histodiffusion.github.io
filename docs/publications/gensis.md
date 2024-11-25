@@ -14,7 +14,7 @@ sidebar_label: 'Gen-SIS - Preprint'
 <h3 class="card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>University of Chicago,\
 <sup>3</sup>Data Science and Learning Division at Argonne National Laboratory</h3>
             <div class="d-flex justify-content-center">
-                <button class="paper_button" onClick={() => window.open('', '_blank') }>blank</button> 
+                <button class="paper_button">Coming Soon</button> 
             </div>
         </div>
     </div>
