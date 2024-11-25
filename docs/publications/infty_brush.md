@@ -8,8 +8,9 @@ sidebar_label: '∞-Brush - ECCV 2024'
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
             <h2 class="card-title text-center">ECCV 2024</h2>
-            <p class="card-text text-center">Minh-Quan Le*, Alexandros Graikos*, Srikar Yellapragada, Rajarsi Gupta, Joel Saltz, Dimitris Samaras</p>
-            <p class="card-text text-center">Stony Brook University</p>
+            <h3 class="card-text text-center">Minh-Quan Le*, Alexandros Graikos*, Srikar Yellapragada,\
+            Rajarsi Gupta, Joel Saltz, Dimitris Samaras</h3>
+            <h3 class="card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
                 <button class="paper_button" onClick={() => window.open('https://github.com/cvlab-stonybrook/infty-brush', '_blank')}>Code</button> 
                 <button class="paper_button" onClick={() => window.open('https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04761.pdf', '_blank') }>Paper</button> 
