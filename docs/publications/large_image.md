@@ -4,18 +4,19 @@ sidebar_label: 'Large Image Generation - CVPR 2024'
 
 # Learned representation-guided diffusion models for large-image generation
 
-<div className="infobox">
-
-<span class="conference-title">CVPR 2024</span>
-
-<span class="authors">
-Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras
-</span>
-
-<div class="button-group"> 
-  <button class="button_class" onClick={() => window.open('https://github.com/cvlab-stonybrook/Large-Image-Diffusion', '_blank')}>Code</button> 
-    <button class="button_class" onClick={() => window.open('https://arxiv.org/abs/2312.07330', '_blank') }>arXiv</button> 
-  </div>
+<div class="container mt-5">
+    <div class="card bg-light"> 
+        <div class="card-body justify-content-center">
+            <h2 class="card-title text-center">CVPR 2024</h2>
+            <p class="card-text text-center">Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras</p>
+            <p class="card-text text-center">Stony Brook University</p>
+            <div class="d-flex justify-content-center">
+                <button class="paper_button" onClick={() => window.open('https://github.com/cvlab-stonybrook/Large-Image-Diffusion', '_blank')}>Code</button> 
+                <button class="paper_button" onClick={() => window.open('https://openaccess.thecvf.com/content/CVPR2024/papers/Graikos_Learned_Representation-Guided_Diffusion_Models_for_Large-Image_Generation_CVPR_2024_paper.pdf', '_blank') }>Paper</button> 
+                <button class="paper_button" onClick={() => window.open('https://arxiv.org/abs/2312.07330', '_blank') }>arXiv</button> 
+            </div>
+        </div>
+    </div>
 </div>
 
 ## Abstract

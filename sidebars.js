@@ -21,7 +21,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Publications',
-      items: ['publications/eccv_24', 'publications/cvprw_24', 'publications/cvpr_24', 'publications/wacv_24'],
+      items: ['publications/zoomldm', 'publications/gensis', 'publications/infty_brush', 'publications/large_image', 'publications/pathldm'],
     },
   ],
  

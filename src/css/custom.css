@@ -1,11 +1,15 @@
 /* Default light theme */
 :root {
     --background-color: #f0f0f0;
+    --link-color: #000000;
+    --link-color-visited: #111111;
 }
 
 /* Dark theme */
 [data-theme="dark"] {
     --background-color: #121212;
+    --link-color: #ffffff;
+    --link-color-visited: #cccccc;
 }
 
 :root {
@@ -20,46 +24,25 @@
 }
 
 div.redlink a:link {
-  color: #990000;
+  color: var(--link-color);
   background-color: transparent;
   text-decoration: none;
 }
 
 
 div.redlink a:visited {
-  color: #890000;
+  color: var(--link-color-visited);
   background-color: transparent;
   text-decoration: none;
 }
 
 
-@font-face {
-  font-family: customFont;
-  src: url(../../static/font/Brutel-Bold.otf);
-}
-
 
 h1 {
-  font-family: customFont, monospace;
+  font-family: Arial, monospace;
 }
 
-.infobox {
-    background-color: var(--background-color); /* Background changes with theme */
-    border: 1px solid #d0d0d0; /* Subtle border */
-    padding: 15px;
-    margin: 15px 0;         /* Space above and below the box */
-    border-radius: 5px;     /* Slightly rounded corners */
-    display: flex;          
-    flex-direction: column; /* Arrange items vertically */ 
-    align-items: center;    /* Center horizontally */
-    margin: 4vh 0vh 4vw 0vw;
-}
-
-div.infobox p {
-    font-size: 1em;
-}
-
-.button_class{
+.paper_button{
     background-color: #990000; /* Green */
     border: none;
     color: white;
@@ -72,45 +55,15 @@ div.infobox p {
     cursor: pointer;
     border-radius: 12px;
 }
-.conference-title {
-    font-size: 1.8em; /* Increase font size */
-    font-weight: bold; /* Make the text bold */ 
-      font-family: customFont,  monospace;
-}
-.authors {
-    font-size: 1.4em; /* Increase font size */
-    text-align: center;
-}
   
+img.img-card {
+    width: 60%;
+}
 
-/* Custom image table */
-table.image-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-tr.no-bg {
-    border: none;
-    background-color: rgba(0,0,0,0) !important;
-}
-td.centered {
-    border: none;
-    text-align: center;
-}
-td.circle {
-    border: none;  /* Explicitly removes any border */
-}
 img.circle {
-    width: 12vw;  /* Adjust the size of the image */
-    height: 12vw;  /* Adjust the size of the image */
+    width: 8vw;  /* Adjust the size of the image */
+    height: 8vw;  /* Adjust the size of the image */
     border-radius: 50%;  /* This creates the circle */
     object-fit: cover;  /* Ensures the image covers the area without being distorted */
-}
-
-h2 {
-    font-family: customFont,  monospace;
-}
-
-p {
-    font-size: 1.1em;
 }
 

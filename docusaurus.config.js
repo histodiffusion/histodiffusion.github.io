@@ -66,6 +66,10 @@ const config = {
         'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
     },
+    {
+        href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css',
+        type:'text/css',
+    }
   ],
 
   themeConfig:
@@ -103,7 +107,8 @@ const config = {
       },
       colorMode: {
         defaultMode: 'light', // Or 'light' if your default is light mode
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
+        disableSwitch: true,
         // ...
       },
     }),

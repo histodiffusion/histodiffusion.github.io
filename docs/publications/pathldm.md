@@ -4,19 +4,19 @@ sidebar_label: 'Text Conditioned LDM - WACV 2024'
 
 # PathLDM: Text Conditioned Latent Diffusion Model for Histopathology
 
-<div className="infobox">
-
-  <span class="conference-title">WACV 2024</span>
-
-<span class="authors">
-Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras
-</span>
-
-<div class="button-group"> 
-    <button class="button_class" onClick={() => window.open('https://github.com/cvlab-stonybrook/PathLDM')}>Code</button> 
-    <button class="button_class" onClick={() => window.open('https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf')}>Paper</button>
-    <button class="button_class" onClick={() => window.open('https://arxiv.org/abs/2309.00748')}>arXiv</button> 
-  </div>
+<div class="container mt-5">
+    <div class="card bg-light"> 
+        <div class="card-body justify-content-center">
+            <h2 class="card-title text-center">WACV 2024</h2>
+            <p class="card-text text-center">Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras</p>
+            <p class="card-text text-center">Stony Brook University</p>
+            <div class="d-flex justify-content-center">
+                <button class="paper_button" onClick={() => window.open('https://github.com/cvlab-stonybrook/PathLDM')}>Code</button> 
+                <button class="paper_button" onClick={() => window.open('https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf')}>Paper</button>
+                <button class="paper_button" onClick={() => window.open('https://arxiv.org/abs/2309.00748')}>arXiv</button> 
+            </div>
+        </div>
+    </div>
 </div>
 
 ## Abstract
