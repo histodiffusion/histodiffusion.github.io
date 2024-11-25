@@ -67,7 +67,9 @@
       Varun Belagali
     </div>
     <div class="col">
-      <img src="./img/people/kostas.jpg" alt="Image Kostas" class="circle"></img>
+      <a href="https://kostino.github.io/" target="_blank">
+        <img src="./img/people/kostas.jpg" alt="Image Kostas" class="circle"></img>
+      </a>
       Kostas Triaridis
     </div>
   </div>
