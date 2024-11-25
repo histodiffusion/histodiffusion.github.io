@@ -55,6 +55,11 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       margin: 20px;
       font-size: 2rem;
+      display: inline-block; /* Ensure it behaves like a badge */
+      white-space: normal; /* Allow text to wrap */
+      overflow-wrap: break-word; /* Break long words */
+      word-break: break-word; /* Ensure words break inside the badge */
+      text-align: center; /* Optional: Center-align the text */
     }
     .brca-badge {
       background: linear-gradient(to right, #e68fb4, #5f2f6c);
@@ -109,7 +114,7 @@ $('html').on({
 <body>
 <!-- Title -->
 <div class="container mt-4 text-center">
-    <a class="nav-link ms-3" href="/docs/publications/cvprw_24">
+    <a class="nav-link ms-3" href="/docs/publications/zoomldm">
         <span class="badge zoom-badge">
         ZoomLDM: Latent Diffusion Model for multi-scale image generation
         </span>
@@ -239,7 +244,7 @@ $('html').on({
 <footer class="mt-5 text-center">
     <div class="container">
         <p class="mb-0">All images shown above are generated.
-        <a class="nav-link ms-3" href="/docs/publications/cvprw_24">
+        <a class="nav-link ms-3" href="/docs/publications/zoomldm">
             <b>🔗 ZoomLDM: Latent Diffusion Model for multi-scale image generation</b>
         </a>
         </p>

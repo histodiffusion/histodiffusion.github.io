@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[847],{693:(e,s,t)=>{t.r(s),t.d(s,{default:()=>i});t(6540);var u=t(6347),a=t(4848);function i(){return(0,a.jsx)(u.rd,{to:"/docs/publications/large_image"})}}}]);
