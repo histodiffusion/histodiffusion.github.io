@@ -3,7 +3,6 @@ import Layout from '@theme/Layout';
 import ThemedImage from '@theme/ThemedImage';
 
 import LightCard from '../../static/img/histodiff-social-card-light.png'
-import DarkCard from '../../static/img/histodiff-social-card-dark.png'
 
 import Content from './index.md';
 

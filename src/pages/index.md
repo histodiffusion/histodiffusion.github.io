@@ -59,12 +59,16 @@
       Srikar Yellapragada
     </div>
     <div class="col">
+      <img src="./img/people/quan.jpg" alt="Image Quan" class="circle"></img>
+      Minh-Quan Le
+    </div>
+    <div class="col">
       <img src="./img/people/varun.jpg" alt="Image Varun" class="circle"></img>
       Varun Belagali
     </div>
     <div class="col">
-      <img src="./img/people/quan.jpg" alt="Image Quan" class="circle"></img>
-      Minh-Quan Le
+      <img src="./img/people/kostas.jpg" alt="Image Kostas" class="circle"></img>
+      Kostas Triaridis
     </div>
   </div>
   <div class="row">
