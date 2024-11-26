@@ -2,6 +2,7 @@
 sidebar_label: 'Gen-SIS - Preprint'
 ---
 
+
 # Gen-SIS: Generative Self-augmentation Improves Self-supervised Learning
 
 <div class="container mt-5">
@@ -21,3 +22,19 @@ sidebar_label: 'Gen-SIS - Preprint'
 </div>
 
 
+## Method
+
+<div class="container justify-content-center text-center">
+  <video width="100%" controls>
+    <source src="/video/gensis/method.mp4" type="video/mp4"></source>
+  </video>
+</div>
+
+
+## Training
+
+<div class="container justify-content-center text-center">
+  <video width="50%" controls>
+    <source src="/video/gensis/training.mp4" type="video/mp4"></source>
+  </video>
+</div>

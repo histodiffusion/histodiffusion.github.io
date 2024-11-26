@@ -21,7 +21,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Publications',
-      items: ['publications/zoomldm', 'publications/infty_brush', 'publications/large_image', 'publications/pathldm'],
+      items: ['publications/zoomldm', 'publications/gensis', 'publications/infty_brush', 'publications/large_image', 'publications/pathldm'],
     },
   ],
  
