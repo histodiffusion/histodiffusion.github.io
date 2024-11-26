@@ -112,6 +112,16 @@ const config = {
         // ...
       },
     }),
+
+    plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-GQHJ36DQG7',
+        anonymizeIP: true,
+      },
+    ],
+  ],
 };
 
 export default config;
