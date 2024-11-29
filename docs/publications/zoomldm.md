@@ -12,6 +12,7 @@ sidebar_label: 'ZoomLDM - Preprint'
             Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras</h3>
             <h3 class="card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
+                <button class="paper_button" onClick={() => window.open('https://arxiv.org/abs/2411.16969', '_blank') }>arXiv</button> 
                 <button class="paper_button" onClick={() => window.open('/pages/zoomldm_large_images/large_images.html', '_blank') }>Large image viewer</button> 
             </div>
         </div>
@@ -52,3 +53,13 @@ We also introduce a joint sampling process that synthesizes images across two di
 
 
 We utilize ZoomLDM as a feature extractor and apply an MIL approach for slide-level classification tasks of Breast cancer subtyping and Homologous Recombintion Deficiency (HRD) prediction. The results show that ZoomLDM’s multi-scale features (fusing 20x and 5x) outperform SoTA encoders in both tasks highlighting the effectiveness of ZoomLDM’s cross-magnification latent space in capturing multi-scale dependencies. Even in a single magnification, ZoomLD outperforms all SoTA encoders. We believe that by learning to synthesize images on top of the capabilities of the discriminative SSL encoders we can exceed previous models in representation learning. 
+
+## Citation
+```bibtex
+@article{yellapragada2024zoomldm,
+  title={ZoomLDM: Latent Diffusion Model for multi-scale image generation},
+  author={Yellapragada, Srikar and Graikos, Alexandros and Triaridis, Kostas and Prasanna, Prateek and Gupta, Rajarsi R and Saltz, Joel and Samaras, Dimitris},
+  journal={arXiv preprint arXiv:2411.16969},
+  year={2024}
+}
+```
