@@ -12,9 +12,9 @@ sidebar_label: 'Large Image Generation - CVPR 2024'
             Prateek Prasanna, Joel Saltz, Dimitris Samaras</h3>
             <h3 class="card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
-                <button class="paper_button" onClick={() => window.open('https://github.com/cvlab-stonybrook/Large-Image-Diffusion', '_blank')}>Code</button> 
-                <button class="paper_button" onClick={() => window.open('https://openaccess.thecvf.com/content/CVPR2024/papers/Graikos_Learned_Representation-Guided_Diffusion_Models_for_Large-Image_Generation_CVPR_2024_paper.pdf', '_blank') }>Paper</button> 
-                <button class="paper_button" onClick={() => window.open('https://arxiv.org/abs/2312.07330', '_blank') }>arXiv</button> 
+                <a href="https://github.com/cvlab-stonybrook/Large-Image-Diffusion" target="_blank"><button class="paper_button">Code</button></a>
+                <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Graikos_Learned_Representation-Guided_Diffusion_Models_for_Large-Image_Generation_CVPR_2024_paper.pdf" target="_blank"><button class="paper_button">Paper</button></a>
+                <a href="https://arxiv.org/abs/2312.07330" target="_blank"><button class="paper_button">arXiv</button></a>
             </div>
         </div>
     </div>

@@ -1,5 +1,7 @@
-<div class="container text-center">
-    <img class="img-card" src="./img/histodiff-social-card-light.png"/>
+<div class="container-auto">
+    <div class="overflow-scroll text-center">
+        <img class="img-card" src="./img/histodiff-social-card-light.png"/>
+    </div>
 </div>
 
 <br/>

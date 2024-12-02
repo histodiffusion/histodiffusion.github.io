@@ -20,8 +20,10 @@ sidebar_label: 'Gen-SIS - Preprint'
     </div>
 </div>
 
-## Abstract
-Self-supervised learning (SSL) methods have emerged as strong visual representation learners by training an image encoder to maximize similarity between features of different views of the same image. To perform this view-invariance task, current SSL algorithms rely on hand-crafted augmentations such as random cropping and color jittering to create multiple views of an image. Recently, generative diffusion models have been shown to improve SSL by providing a wider range of data augmentations. However, these diffusion models require pre-training on large-scale image-text datasets, which might not be available for many specialized domains like histopathology. In this work, we introduce Gen-SIS, a diffusion-based augmentation technique trained exclusively on unlabeled image data, eliminating any reliance on external sources of supervision such as text captions. We first train an initial SSL encoder on a dataset using only hand-crafted augmentations. We then train a diffusion model conditioned on embeddings from that SSL encoder. Following training, given an embedding of the source image, this diffusion model can synthesize its diverse views. We show that these `self-augmentations', i.e. generative augmentations based on the vanilla SSL encoder embeddings, facilitate the training of a stronger SSL encoder. Furthermore, based on the ability to interpolate between images in the encoder latent space, we introduce the novel pretext task of disentangling the two source images of an interpolated synthetic image. We validate Gen-SIS's effectiveness by demonstrating performance improvements across various downstream tasks in both natural images, which are generally object-centric, as well as digital histopathology images, which are typically context-based. 
+## TL;DR
+Self-supervised learning (SSL) learns visual representations by training an image encoder to maximize similarity between features of different views of the same image. While SoTA SSL algorithms rely on hand-crafted augmentations (cropping, color jittering), recently, generative diffusion models have been shown to improve SSL by providing a wider range of *generative* data augmentations <a href="https://arxiv.org/abs/2312.17742">[1]</a>. The downside is that this usually requires pre-training the diffusion model on large-scale image-text datasets, which might not be available for many specialized domains like histopathology.
+
+To solve this, we introduce Gen-SIS, a **diffusion-based augmentation technique trained exclusively on unlabeled image data**. We train an initial SSL encoder using only hand-crafted augmentations. We then use this encoder to train an embedding-conditioned diffusion model. The embedding-conditioned diffusion model can synthesize diverse views of an image as well as interpolate between images in the encoder latent space. We show that these *self-augmentations*, i.e. generative augmentations based on the vanilla SSL encoder embeddings, facilitate the training of a stronger SSL encoder which we complement with our novel distantanglement pretext task. We showcase Gen-SIS's effectiveness by demonstrating performance improvements in both natural images and digital histopathology.
 
 ## Method
 
@@ -43,12 +45,48 @@ We propose two types of self-augmentations:
   </video>
 </div>
 
-We use DINO our vanilla SSL method. To integrate generative augmentations into SSL, we use the real image and a corresponding synthetic image as an input pair for the SSL pretext task. We also apply hand-crafted augmentations to both real and synthetic images. <br></br>
+We use DINO as our vanilla SSL method. To integrate generative augmentations into SSL, we use the real image and a corresponding synthetic image as an input pair for the SSL pretext task. We also apply hand-crafted augmentations to both real and synthetic images.
+
 Since the interpolated image contains components of both source images, we propose a disentanglement task where the network learns to separate the distinct features of each source image used in the interpolation.
 
-<div class="container text-center">
-  <img src="/img/gensis/pseudo_code.png"/>
-</div>
+```py title="PyTorch-style pseudocode for the disentanglement pretext task" showLineNumbers
+# Parameters:
+# gs, gt: student and teacher networks
+# tps, tpt: student and teacher temperatures
+# c: center
+# alpha: interpolation ratio
+
+# Load an image from the dataset
+for img_1 in loader:
+    # Read secondary source image -- Another random image from the dataset
+    img_2 = ReadImage(secondary(img_1))
+    # Read interpolated image of primary and secondary source image
+    # Can be generated on-the-fly but we pre-generate to reduce training time
+    img_int = ReadInterpImage(img_1, img_2, alpha)
+
+    # Apply vanilla DINO augmentation to get a view of the primary image
+    img_1_view = vanilla_augment(img_1)
+    # Apply vanilla DINO augmentation to get a view of secondary image
+    img_2_view = vanilla_augment(img_2)
+    # Apply vanilla DINO augmentation to get a view of the interpolated image
+    img_int_view = vanilla_augment(img_int)
+
+    # Get student output for interpolated image 
+    stud_int = gs(img_int_view)
+    # Get teacher output for primary and secondary images
+    teach_1 = gt(img_1_view).detach()
+    teach_2 = gt(img_2_view).detach()
+
+    # Student sharpening
+    stud_int = softmax(stud_int / tps, dim=1)
+    # Entanglement of teacher output
+    teach_ent = alpha * teach_1 + (1-alpha) * teach_2
+    # Teacher sharpening and centering
+    teach_ent = softmax((teach_ent - c) / tpt, dim=1)
+
+    # Compute disentanglement loss
+    disentanglement_loss = - (teach_ent * log(stud_int)).sum(dim=1).mean()
+```
 
 ## Results
 For our enhanced SSL training, we improve DINO with the Gen-SIS framework and call

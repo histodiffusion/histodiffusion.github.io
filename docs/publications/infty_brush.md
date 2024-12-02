@@ -12,9 +12,9 @@ sidebar_label: '∞-Brush - ECCV 2024'
             Rajarsi Gupta, Joel Saltz, Dimitris Samaras</h3>
             <h3 class="card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
-                <button class="paper_button" onClick={() => window.open('https://github.com/cvlab-stonybrook/infty-brush', '_blank')}>Code</button> 
-                <button class="paper_button" onClick={() => window.open('https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04761.pdf', '_blank') }>Paper</button> 
-                <button class="paper_button" onClick={() => window.open('https://arxiv.org/abs/2407.14709', '_blank') }>arXiv</button> 
+                <a href="https://github.com/cvlab-stonybrook/infty-brush" target="_blank"><button class="paper_button">Code</button> </a>
+                <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04761.pdf" target="_blank"><button class="paper_button">Paper</button></a>
+                <a href="https://arxiv.org/abs/2407.14709" target="_blank"><button class="paper_button">arXiv</button></a>
             </div>
         </div>
     </div>

@@ -12,8 +12,8 @@ sidebar_label: 'ZoomLDM - Preprint'
             Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras</h3>
             <h3 class="card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
-                <button class="paper_button" onClick={() => window.open('https://arxiv.org/abs/2411.16969', '_blank') }>arXiv</button> 
-                <button class="paper_button" onClick={() => window.open('/pages/zoomldm_large_images/large_images.html', '_blank') }>Large image viewer</button> 
+                <a href="https://arxiv.org/abs/2411.16969" target="_blank"><button class="paper_button">arXiv</button> </a>
+                <a href="/pages/zoomldm_large_images/large_images.html" target="_blank"><button class="paper_button">Large image viewer</button></a>
             </div>
         </div>
     </div>

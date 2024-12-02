@@ -12,9 +12,9 @@ sidebar_label: 'Text Conditioned LDM - WACV 2024'
             Tahsin Kurc, Joel Saltz, Dimitris Samaras</h3>
             <h3 class="card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
-                <button class="paper_button" onClick={() => window.open('https://github.com/cvlab-stonybrook/PathLDM')}>Code</button> 
-                <button class="paper_button" onClick={() => window.open('https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf')}>Paper</button>
-                <button class="paper_button" onClick={() => window.open('https://arxiv.org/abs/2309.00748')}>arXiv</button> 
+                <a href="https://github.com/cvlab-stonybrook/PathLDM" target="_blank"><button class="paper_button">Code</button></a>
+                <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf" target="_blank"><button class="paper_button">Paper</button></a>
+                <a href="https://arxiv.org/abs/2309.00748" target="_blank"><button class="paper_button">arXiv</button></a>
             </div>
         </div>
     </div>
