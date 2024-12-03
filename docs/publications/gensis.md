@@ -14,7 +14,7 @@ sidebar_label: 'Gen-SIS - Preprint'
             Prateek Prasanna<sup>1</sup>, Joel Saltz<sup>1</sup>, Dimitris Samaras<sup>1</sup></h3>
 <h3 class="card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago</h3>
             <div class="d-flex justify-content-center">
-                <button class="paper_button">Coming Soon</button> 
+                <a href="https://arxiv.org/abs/2412.01672" target="_blank"><button class="paper_button">arXiv</button> </a>
             </div>
         </div>
     </div>
