@@ -95,3 +95,12 @@ the method Gen-DINO. In Gen-DINO, we pre-train the ViT-S/16 model with generativ
   <img src="/img/gensis/results.png"/>
 </div>
 
+## Citation
+```bibtex
+@article{belagali2024gen,
+  title={Gen-SIS: Generative Self-augmentation Improves Self-supervised Learning},
+  author={Belagali, Varun and Yellapragada, Srikar and Graikos, Alexandros and Kapse, Saarthak and Li, Zilinghan and Nandi, Tarak Nath and Madduri, Ravi K and Prasanna, Prateek and Saltz, Joel and Samaras, Dimitris},
+  journal={arXiv preprint arXiv:2412.01672},
+  year={2024}
+}
+```
