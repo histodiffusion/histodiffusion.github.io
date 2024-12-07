@@ -64,7 +64,9 @@
       Minh-Quan Le
     </div>
     <div class="col">
-      <img src="./img/people/varun.jpg" alt="Image Varun" class="circle"></img>
+      <a href="https://varunbelagali98.github.io" target="_blank">
+        <img src="./img/people/varun.jpg" alt="Image Varun" class="circle"></img>
+      </a>
       Varun Belagali
     </div>
     <div class="col">
