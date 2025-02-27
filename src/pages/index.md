@@ -14,27 +14,27 @@
 
 <div class="container text-left">
 
-# [ZoomLDM: Latent Diffusion Model for multi-scale image generation](./docs/publications/zoomldm) <span class="badge text-bg-success">New</span>
+# [ZoomLDM: Latent Diffusion Model for multi-scale image generation](./docs/publications/zoomldm) <span class="badge text-bg-primary">CVPR 2025</span>
   _Srikar Yellapragada*, Alexandros Graikos*, Kostas Triaridis, Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras \
-  Preprint, 2024_
+  Computer Vision and Pattern Recognition Conference (CVPR), 2025_
   <br />
 
-# [Gen-SIS: Generative Self-augmentation Improves Self-supervised Learning](./docs/publications/gensis) <span class="badge text-bg-success">New</span>
+# [Gen-SIS: Generative Self-augmentation Improves Self-supervised Learning](./docs/publications/gensis) <span class="badge text-bg-danger">arXiv</span>
   _Varun Belagali*, Srikar Yellapragada*, Alexandros Graikos, Saarthak Kapse, Zilinghan Li, Tarak Nath Nandi, Ravi K Madduri, Prateek Prasanna, Joel Saltz, Dimitris Samaras \
   Preprint, 2024_
   <br />
 
-# [∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions](./docs/publications/infty_brush)
+# [∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions](./docs/publications/infty_brush) <span class="badge text-bg-warning">ECCV 2024</span>
   _Minh-Quan Le⋆, Alexandros Graikos⋆, Srikar Yellapragada, Rajarsi Gupta, Joel Saltz, Dimitris Samaras \
   European Conference on Computer Vision (ECCV), 2024_
   <br />
 
-# [Learned Representation-Guided Diffusion Models for Large-Image Generation](./docs/publications/large_image)
+# [Learned Representation-Guided Diffusion Models for Large-Image Generation](./docs/publications/large_image) <span class="badge text-bg-primary">CVPR 2024</span>
   _Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras \
   Computer Vision and Pattern Recognition Conference (CVPR), 2024_
   <br />
 
-# [PathLDM: Text Conditioned Latent Diffusion Model for Histopathology](./docs/publications/pathldm)
+# [PathLDM: Text Conditioned Latent Diffusion Model for Histopathology](./docs/publications/pathldm) <span class="badge text-bg-info">WACV 2024</span>
   _Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras \
   Winter Conference on Applications of Computer Vision (WACV), 2024_
 

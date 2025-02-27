@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ZoomLDM - Preprint'
+sidebar_label: 'ZoomLDM - CVPR 2025'
 ---
 
 # ZoomLDM: Latent Diffusion Model for multi-scale image generation
@@ -7,7 +7,7 @@ sidebar_label: 'ZoomLDM - Preprint'
 <div class="container mt-5">
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
-            <h2 class="card-title text-center">Preprint</h2>
+            <h2 class="card-title text-center">CVPR 2025</h2>
             <h3 class="card-text text-center">Srikar Yellapragada*, Alexandros Graikos*, Kostas Triaridis,\
             Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras</h3>
             <h3 class="card-text text-center">Stony Brook University</h3>
