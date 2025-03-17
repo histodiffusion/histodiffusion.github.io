@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Text Conditioned LDM - WACV 2024'
+sidebar_label: 'PathLDM: Text-conditioned pathology diffusion model'
 ---
 
 # PathLDM: Text Conditioned Latent Diffusion Model for Histopathology

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ZoomLDM - CVPR 2025'
+sidebar_label: 'ZoomLDM - Multi-scale diffusion model'
 ---
 
 # ZoomLDM: Latent Diffusion Model for multi-scale image generation

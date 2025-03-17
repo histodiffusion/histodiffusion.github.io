@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Gen-SIS - Preprint'
+sidebar_label: 'Gen-SIS - Generative augmentations for self-supervised learning'
 ---
 
 

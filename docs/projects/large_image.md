@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Large Image Generation - CVPR 2024'
+sidebar_label: 'SSL-guided diffusion - Large image generation'
 ---
 
 # Learned representation-guided diffusion models for large-image generation

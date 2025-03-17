@@ -85,9 +85,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'publicationsSidebar',
+            sidebarId: 'projectsSidebar',
             position: 'left',
-            label: 'Publications',
+            label: 'Projects',
           },
           {
             label: 'GitHub',

@@ -1,5 +1,5 @@
 ---
-sidebar_label: '∞-Brush - ECCV 2024'
+sidebar_label: '∞-Brush - Large image synthesis in infinite dimensions'
 ---
 
 # ∞-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions
