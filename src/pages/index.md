@@ -36,14 +36,12 @@
 
 ## <span class="badge text-bg-dark">CVPR 2024</span>
 # [Learned Representation-Guided Diffusion Models for Large-Image Generation](./docs/projects/large_image) 
-  _Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras \
-  Computer Vision and Pattern Recognition Conference (CVPR), 2024_
+  _Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse, Prateek Prasanna, Joel Saltz, Dimitris Samaras_
   <br />
 
 ## <span class="badge text-bg-dark">WACV 2024</span>
 # [PathLDM: Text Conditioned Latent Diffusion Model for Histopathology](./docs/projects/pathldm) 
-  _Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras \
-  Winter Conference on Applications of Computer Vision (WACV), 2024_
+  _Srikar Yellapragada*, Alexandros Graikos*, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Dimitris Samaras_
 
 </div>
 

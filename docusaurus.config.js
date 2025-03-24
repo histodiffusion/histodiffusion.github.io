@@ -114,14 +114,28 @@ const config = {
     }),
 
     plugins: [
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-GQHJ36DQG7',
-        anonymizeIP: true,
-      },
+      [
+        '@docusaurus/plugin-google-gtag',
+        {
+          trackingID: 'G-GQHJ36DQG7',
+          anonymizeIP: true,
+        },
+      ],
+      [
+        '@docusaurus/plugin-client-redirects',
+        {
+          createRedirects(existingPath) {
+          if (existingPath.includes('/projects')) {
+            // Redirect from /publications to /projects
+            return [
+              existingPath.replace('/projects', '/publications'),
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
+        },
+      ],
     ],
-  ],
 };
 
 export default config;
