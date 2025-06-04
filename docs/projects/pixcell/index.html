@@ -10,7 +10,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"><link rel="stylesheet" href="/assets/css/styles.a54542c5.css">
-<script src="/assets/js/runtime~main.d7451e40.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f25298ae.js" defer="defer"></script>
 <script src="/assets/js/main.ac7c4db6.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -22,21 +22,23 @@
 <br>
 <p>We present <strong>PixCell</strong>, the first generative foundation model for digital histopathology. We progressively train our model to generate from 256x256 to 1024x1024 pixel images conditioned on <a href="https://huggingface.co/MahmoodLab/UNI2-h" target="_blank" rel="noopener noreferrer">UNI2-h</a> embeddings. PixCell achieves state-of-the-art quality in digital pathology image generation and can be seamlessly used to perform targeted data augmentation and generative downstream tasks.</p>
 <br>
+<br>
 <p><img decoding="async" loading="lazy" alt="overview" src="/assets/images/pixcell_overview-ad9591148a5694d7f5cdf75ecaa41a2b.png" width="3404" height="1465" class="img_ev3q"></p>
 <p>We curate a dataset of 30 million patches at 1024x1024 resolution from public and internal digital histopathology datasets, <strong>PanCan-30M</strong>. We pair each sample in the dataset with its corresponding 16 UNI-2h embeddings to construct the training data. We progressively train a diffusion transformer model, starting from 256x256 resolution and scaling up to 1024x1024. We release the weights for both the 256x256 model (<a href="https://huggingface.co/StonyBrook-CVLab/PixCell-256" target="_blank" rel="noopener noreferrer">PixCell-256</a>) and the 1024x1024 model (<a href="https://huggingface.co/StonyBrook-CVLab/PixCell-1024" target="_blank" rel="noopener noreferrer">PixCell-1024</a>).</p>
 <br>
-<div class="container text-center"><img src="/img/pixcell/variations.png" height="800"></div>
 <br>
+<p><img decoding="async" loading="lazy" alt="variations" src="/assets/images/variations-3cd199ab55194e15ff20452897fcb204.png" width="2137" height="1907" class="img_ev3q"></p>
 <p>Given a UNI embedding from a reference image, PixCell generates images with similar appearance and content. Using the PixCell-256 model we generate a synthetic variant of our SBU-1M dataset, <a href="https://huggingface.co/datasets/StonyBrook-CVLab/Synthetic-SBU-1M" target="_blank" rel="noopener noreferrer">Synthetic SBU-1M</a>. We show that we can train an encoder on the synthetic data only without losing any performance on downstream tasks.</p>
 <div class="container text-center"><img src="/img/pixcell/ssl_results.png" width="700"></div>
+<br>
 <br>
 <br>
 <p><img decoding="async" loading="lazy" alt="controlnet" src="/assets/images/controlnet_images-a77278f936e293a97ce2ab6e58ab2dc5.png" width="3067" height="1560" class="img_ev3q"></p>
 <p>Using a pre-trained cell segmentation model, we construct a dataset of 10,000 image-cell mask pairs. We train a cell mask ControlNet (<a href="https://huggingface.co/StonyBrook-CVLab/PixCell-256-Cell-ControlNet" target="_blank" rel="noopener noreferrer">PixCell-256-Cell-ControlNet</a>) on this dataset to guide image generation. Using the UNI embedding from a reference image to control the <strong>style</strong> and a cell mask to control the <strong>layout</strong>, we can generate targeted synthetic data using the appearances from the test set and masks from training set to improve the downstream cell segmentation task.</p>
 <br>
+<br>
 <p><img decoding="async" loading="lazy" alt="stain_translation" src="/assets/images/translation_images-742a01a6e7aa35a8769991f8d1f9f5d4.png" width="2685" height="1671" class="img_ev3q"></p>
 <p>Our PixCell models, although never trained explicitly on IHC-stained data, can generalize to IHC images. Using a dataset of &quot;roughly&quot; paired H&amp;E and IHC patches we learn a transformation between H&amp;E UNI embeddings and IHC UNI embeddings. We use this learned transformation to perform stain translation between the two different staining techniques, significantly outperforming previous GAN-based models.</p>
-<br>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="citation">Citation<a href="#citation" class="hash-link" aria-label="Direct link to Citation" title="Direct link to Citation">​</a></h3>
 <div class="language-bibtex codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bibtex codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">TBA</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--next" href="/docs/projects/pathae"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">PathAE - Pathology image compression with autoencoders</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#citation" class="table-of-contents__link toc-highlight">Citation</a></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
