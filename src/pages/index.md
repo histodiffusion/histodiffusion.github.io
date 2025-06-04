@@ -15,6 +15,11 @@
 <div class="container text-left">
 
 ## <span class="badge text-bg-dark">arXiv</span> <span class="badge text-bg-success">New!</span>
+# [PixCell: A generative foundation model for digital histopathology images](./docs/projects/pixcell)
+  _Srikar Yellapragada, Alexandros Graikos, Zilinghan Li, Kostas Triaridis, Varun Belagali, Saarthak Kapse, Tarak Nath Nandi, Ravi K Madduri, Prateek Prasanna, Tahsin Kurc, Rajarsi R. Gupta, Joel Saltz, Dimitris Samaras_
+  <br />
+
+## <span class="badge text-bg-dark">arXiv</span>
 # [Pathology Image Compression with Pre-trained Autoencoders](./docs/projects/pathae)
   _Srikar Yellapragada, Alexandros Graikos, Kostas Triaridis, Zilinghan Li, Tarak Nath Nandi, Ravi K Madduri, Prateek Prasanna, Joel Saltz, Dimitris Samaras_
   <br />
