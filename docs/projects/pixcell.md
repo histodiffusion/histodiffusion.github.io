@@ -48,7 +48,6 @@ Given a UNI embedding from a reference image, PixCell generates images with simi
 </div>
 <br />
 
-<br />
 ---
 ![controlnet](/img/pixcell/controlnet_images.png)
 
