@@ -8,9 +8,9 @@ sidebar_label: '∞-Brush - Large image synthesis in infinite dimensions'
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
             <h2 class="card-title text-center">ECCV 2024</h2>
-            <h3 class="card-text text-center">Minh-Quan Le*, Alexandros Graikos*, Srikar Yellapragada,\
+            <h3 class="authors card-text text-center">Minh-Quan Le*, Alexandros Graikos*, Srikar Yellapragada,\
             Rajarsi Gupta, Joel Saltz, Dimitris Samaras</h3>
-            <h3 class="card-text text-center">Stony Brook University</h3>
+            <h3 class="authors card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
                 <a href="https://github.com/cvlab-stonybrook/infty-brush" target="_blank"><button class="paper_button">Code</button> </a>
                 <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04761.pdf" target="_blank"><button class="paper_button">Paper</button></a>

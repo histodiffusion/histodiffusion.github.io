@@ -8,9 +8,9 @@ sidebar_label: 'ZoomLDM - Multi-scale diffusion model'
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
             <h2 class="card-title text-center">CVPR 2025</h2>
-            <h3 class="card-text text-center">Srikar Yellapragada*, Alexandros Graikos*, Kostas Triaridis,\
+            <h3 class="authors card-text text-center">Srikar Yellapragada*, Alexandros Graikos*, Kostas Triaridis,\
             Prateek Prasanna, Rajarsi Gupta, Joel Saltz, Dimitris Samaras</h3>
-            <h3 class="card-text text-center">Stony Brook University</h3>
+            <h3 class="authors card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
                 <a href="https://github.com/cvlab-stonybrook/ZoomLDM/tree/main" target="_blank"><button class="paper_button">Code</button> </a>
                 <a href="https://arxiv.org/abs/2411.16969" target="_blank"><button class="paper_button">arXiv</button> </a>

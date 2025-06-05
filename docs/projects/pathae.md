@@ -8,10 +8,10 @@ sidebar_label: 'PathAE - Pathology image compression with autoencoders'
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
             <h2 class="card-title text-center">Preprint</h2>
-            <h3 class="card-text text-center">Srikar Yellapragada<sup>1</sup>, Alexandros Graikos<sup>1</sup>, Kostas Triaridis<sup>1</sup>,\
+            <h3 class="authors card-text text-center">Srikar Yellapragada<sup>1</sup>, Alexandros Graikos<sup>1</sup>, Kostas Triaridis<sup>1</sup>,\
             Zilinghan Li<sup>2</sup>, Tarak Nath Nandi<sup>2,3</sup>, Ravi K Madduri<sup>2,3</sup>,\
             Prateek Prasanna<sup>1</sup>, Joel Saltz<sup>1</sup>, Dimitris Samaras<sup>1</sup></h3>
-<h3 class="card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago</h3>
+<h3 class="authors card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago</h3>
             <div class="d-flex justify-content-center">
                 <a href="https://arxiv.org/abs/2503.11591" target="_blank"><button class="paper_button">arXiv</button> </a>
                 <a href="https://huggingface.co/collections/StonyBrook-CVLab/pathology-fine-tuned-aes-67d45f223a659ff2e3402dd0" target="_blank"><button class="paper_button">🤗 Models</button> </a>

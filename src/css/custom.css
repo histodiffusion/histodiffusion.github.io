@@ -55,3 +55,6 @@ img.circle {
     object-fit: cover;  /* Ensures the image covers the area without being distorted */
 }
 
+h3.authors {
+    line-height: 1.6;
+}

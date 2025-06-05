@@ -8,9 +8,9 @@ sidebar_label: 'SSL-guided diffusion - Large image generation'
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
             <h2 class="card-title text-center">CVPR 2024</h2>
-            <h3 class="card-text text-center">Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse,\
+            <h3 class="authors card-text text-center">Alexandros Graikos*, Srikar Yellapragada*, Minh-Quan Le, Saarthak Kapse,\
             Prateek Prasanna, Joel Saltz, Dimitris Samaras</h3>
-            <h3 class="card-text text-center">Stony Brook University</h3>
+            <h3 class="authors card-text text-center">Stony Brook University</h3>
             <div class="d-flex justify-content-center">
                 <a href="https://github.com/cvlab-stonybrook/Large-Image-Diffusion" target="_blank"><button class="paper_button">Code</button></a>
                 <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Graikos_Learned_Representation-Guided_Diffusion_Models_for_Large-Image_Generation_CVPR_2024_paper.pdf" target="_blank"><button class="paper_button">Paper</button></a>
