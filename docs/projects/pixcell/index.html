@@ -10,7 +10,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"><link rel="stylesheet" href="/assets/css/styles.56315523.css">
-<script src="/assets/js/runtime~main.f1c8ae27.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.359f1a87.js" defer="defer"></script>
 <script src="/assets/js/main.ac7c4db6.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -26,12 +26,11 @@
 <p>We curate a dataset of 30 million patches at 1024x1024 resolution from public and internal digital histopathology datasets, <strong>PanCan-30M</strong>. We pair each sample in the dataset with its corresponding 16 UNI-2h embeddings to construct the training data. We progressively train a diffusion transformer model, starting from 256x256 resolution and scaling up to 1024x1024. We release the weights for both the 256x256 model (<a href="https://huggingface.co/StonyBrook-CVLab/PixCell-256" target="_blank" rel="noopener noreferrer">PixCell-256</a>) and the 1024x1024 model (<a href="https://huggingface.co/StonyBrook-CVLab/PixCell-1024" target="_blank" rel="noopener noreferrer">PixCell-1024</a>).</p>
 <br>
 <hr>
-<p><img decoding="async" loading="lazy" alt="256_variations" src="/assets/images/256_variations-aa390029418e0c531365ab9498f17fba.png" width="1086" height="388" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="256_variations" src="/assets/images/256_variations-51d30bd3662580bb4be637c2f32050bf.png" width="1086" height="492" class="img_ev3q"></p>
 <br>
 <p><img decoding="async" loading="lazy" alt="1024_variations" src="/assets/images/1024_variations-09d22e8b72faed33c657594e3f54c611.png" width="1086" height="387" class="img_ev3q"></p>
 <p>Given a UNI embedding from a reference image, PixCell generates images with similar appearance and content. Using the PixCell-256 model we generate a synthetic variant of our SBU-1M dataset, <a href="https://huggingface.co/datasets/StonyBrook-CVLab/Synthetic-SBU-1M" target="_blank" rel="noopener noreferrer">Synthetic SBU-1M</a>. We show that we can train an encoder on the synthetic data only without losing any performance on downstream tasks.</p>
 <div class="container text-center"><img src="/img/pixcell/ssl_results.png" width="700"></div>
-<br>
 <br>
 <hr>
 <p><img decoding="async" loading="lazy" alt="controlnet" src="/assets/images/controlnet_images-42afc4e5653fc190db94a4cab9501acd.png" width="1405" height="708" class="img_ev3q"></p>
