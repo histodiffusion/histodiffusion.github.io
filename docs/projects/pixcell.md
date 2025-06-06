@@ -13,7 +13,7 @@ sidebar_label: 'PixCell - Generative foundation model'
             Prateek Prasanna<sup>1</sup>, Tahsin Kurc<sup>1</sup>, Rajarsi R. Gupta<sup>1</sup>, Joel Saltz<sup>1</sup>, Dimitris Samaras<sup>1</sup></h3>
             <h3 class="authors card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago</h3>
             <div class="d-flex justify-content-center">
-                <a href="" target="_blank"><button class="paper_button">arXiv</button> </a>
+                <a href="https://arxiv.org/abs/2506.05127" target="_blank"><button class="paper_button">arXiv</button> </a>
                 <a href="https://huggingface.co/StonyBrook-CVLab/PixCell-1024" target="_blank"><button class="paper_button">PixCell-1024 🤗</button></a>
                 <a href="https://huggingface.co/StonyBrook-CVLab/PixCell-256" target="_blank"><button class="paper_button">PixCell-256 🤗</button></a>
             </div>
