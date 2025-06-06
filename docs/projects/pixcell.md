@@ -19,7 +19,7 @@ sidebar_label: 'PixCell - Generative foundation model'
             </div>
             <div class="d-flex justify-content-center">
                 <a href="https://huggingface.co/StonyBrook-CVLab/PixCell-256-Cell-ControlNet" target="_blank"><button class="paper_button">PixCell-256-Cell-ControlNet 🤗</button></a>
-                <a href="https://huggingface.co/StonyBrook-CVLab/Synthetic-SBU-1M" target="_blank"><button class="paper_button">Synthetic-SBU-1M 🤗</button></a>
+                <a href="https://huggingface.co/datasets/StonyBrook-CVLab/Synthetic-SBU-1M" target="_blank"><button class="paper_button">Synthetic-SBU-1M 🤗</button></a>
             </div>
         </div>
     </div>
