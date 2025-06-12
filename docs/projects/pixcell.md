@@ -62,5 +62,10 @@ Our PixCell models, although never trained explicitly on IHC-stained data, can g
 
 ### Citation
 ```bibtex
-TBA
+@article{yellapragada2025pixcell,
+  title={PixCell: A generative foundation model for digital histopathology images},
+  author={Yellapragada, Srikar and Graikos, Alexandros and Li, Zilinghan and Triaridis, Kostas and Belagali, Varun and Kapse, Saarthak and Nandi, Tarak Nath and Madduri, Ravi K and Prasanna, Prateek and Kurc, Tahsin and others},
+  journal={arXiv preprint arXiv:2506.05127},
+  year={2025}
+}
 ```
