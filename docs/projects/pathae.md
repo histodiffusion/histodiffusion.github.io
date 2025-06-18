@@ -7,7 +7,7 @@ sidebar_label: 'PathAE - Pathology image compression with autoencoders'
 <div class="container mt-5">
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
-            <h2 class="card-title text-center">Preprint</h2>
+            <h2 class="card-title text-center">MICCAI 2025</h2>
             <h3 class="authors card-text text-center">Srikar Yellapragada<sup>1</sup>, Alexandros Graikos<sup>1</sup>, Kostas Triaridis<sup>1</sup>,\
             Zilinghan Li<sup>2</sup>, Tarak Nath Nandi<sup>2,3</sup>, Ravi K Madduri<sup>2,3</sup>,\
             Prateek Prasanna<sup>1</sup>, Joel Saltz<sup>1</sup>, Dimitris Samaras<sup>1</sup></h3>

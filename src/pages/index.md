@@ -19,7 +19,7 @@
   _Srikar Yellapragada, Alexandros Graikos, Zilinghan Li, Kostas Triaridis, Varun Belagali, Saarthak Kapse, Tarak Nath Nandi, Ravi K Madduri, Prateek Prasanna, Tahsin Kurc, Rajarsi R. Gupta, Joel Saltz, Dimitris Samaras_
   <br />
 
-## <span class="badge text-bg-dark">arXiv</span>
+## <span class="badge text-bg-dark">MICCAI 2025</span>
 # [Pathology Image Compression with Pre-trained Autoencoders](./docs/projects/pathae)
   _Srikar Yellapragada, Alexandros Graikos, Kostas Triaridis, Zilinghan Li, Tarak Nath Nandi, Ravi K Madduri, Prateek Prasanna, Joel Saltz, Dimitris Samaras_
   <br />
