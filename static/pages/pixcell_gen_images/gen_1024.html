@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixCell: A generative foundation model for digital histopathology images</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnify.css">
+</head>
+
+<style>
+    /* vertical row headers */
+    th.vh{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;   /* keep Latin chars readable */
+    transform: rotate(180deg); /* makes it read top-to-bottom */
+    white-space: nowrap;
+    width: 1px;                /* keep it skinny */
+    padding: .5rem .25rem;
+    vertical-align: middle;
+    }
+
+    /* optional layout helpers */
+    td { white-space: nowrap; }
+    td img { max-height: 320px; width: auto; }
+
+    .magnify > .magnify-lens {
+      background-color: #fff !important; /* Prevent adjacent image from appearing in lens */
+    }
+
+    .carousel-inner {
+        text-align: center; /* Center the content in the carousel */
+    }
+    .carousel-inner img {
+        max-width: 70%; /* Adjust the size of the images */
+        max-width: 1024px; /* Adjust the size of the images */
+        height: auto;
+        margin: 0 auto; /* Center the image horizontally */
+    } 
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%);
+        width: 3rem; /* Adjust width */
+        height: 3rem; /* Adjust height */
+        background-size: 100%; /* Ensure the icon scales properly */
+    }
+    .carousel-indicators {
+        filter: invert(100%);
+        position: static; /* Make indicators static */
+        margin-top: 10px; /* Add spacing from the image */
+        text-align: center; /* Center align the indicators */
+    }
+
+    .carousel-inner img {
+        max-width: 1024px; /* Set maximum width */
+        width: 100%; /* Ensure it scales properly */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .pancan-badge {
+      background: linear-gradient(to right, #e68fb4, #5f2f6c);
+      color: white;
+      padding: 20px 20px;
+      border-radius: 50px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+      font-size: 1.5rem;
+    }
+    .spider-badge {
+      background: linear-gradient(to right, #348ceb, #3e0b42);
+      color: white;
+      padding: 20px 20px;
+      border-radius: 50px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+      font-size: 1.5rem;
+    }
+    .ihc-badge {
+      background: linear-gradient(to right, #f0efed, #785612);
+      color: white;
+      padding: 20px 20px;
+      border-radius: 50px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+      font-size: 1.5rem;
+    }
+
+
+    footer {
+        background-color: #f8f9fa;
+        padding: 20px 0; /* Padding above and below */
+        text-align: center;
+    }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/jquery.magnify.js"></script>
+<script>
+var $zoom;
+$(document).ready(function() {
+  // Initiate magnification powers
+  $zoom = $('.zoom').magnify({
+      afterLoad: function() {
+        console.log('Magnification powers activated!');
+      }
+    });
+});
+$('html').on({
+  magnifystart: function() {
+    console.log('\'magnifystart\' event fired');
+  },
+  magnifyend: function() {
+    console.log('\'magnifyend\' event fired');
+  },
+});
+</script>
+
+<body>
+<!-- Title -->
+<div class="container mt-4 text-center">
+    <a class="nav-link ms-3" href="/docs/projects/pixcell">
+        <h1>
+        PixCell: A generative foundation model for digital histopathology images
+        </h1>
+        <h2>Synthetic 1024x1024 images</h2>
+    </a>
+</div>
+
+<br>
+
+
+<!-- PanCan-30M -->
+<div class="container-fluid bg-light">
+    <div class="container mt-4 text-center">
+        <span class="badge pancan-badge">
+        PanCan-30M
+        </span>
+    </div>
+<table class="table table-bordered align-middle text-center">
+  <thead>
+    <tr>
+      <th scope="row" class="vh">Synthetic</th>
+      <td><img src="1024/pancan/0029aa0c_syn.jpg" alt="0029aa0c syn" class="zoom" data-magnify-src="1024/pancan/0029aa0c_syn.jpg"></td>
+      <td><img src="1024/pancan/15fd819d_syn.jpg" alt="15fd819d syn" class="zoom" data-magnify-src="1024/pancan/15fd819d_syn.jpg"></td>
+      <td><img src="1024/pancan/2c1776b1_syn.jpg" alt="2c1776b1 syn" class="zoom" data-magnify-src="1024/pancan/2c1776b1_syn.jpg"></td>
+      <td><img src="1024/pancan/41fbebf8_syn.jpg" alt="41fbebf8 syn" class="zoom" data-magnify-src="1024/pancan/41fbebf8_syn.jpg"></td>
+      <td><img src="1024/pancan/5a48e700_syn.jpg" alt="5a48e700 syn" class="zoom" data-magnify-src="1024/pancan/5a48e700_syn.jpg"></td>
+      <td><img src="1024/pancan/5c96f8e4_syn.jpg" alt="5c96f8e4 syn" class="zoom" data-magnify-src="1024/pancan/5c96f8e4_syn.jpg"></td>
+      <td><img src="1024/pancan/7d7dc54e_syn.jpg" alt="7d7dc54e syn" class="zoom" data-magnify-src="1024/pancan/7d7dc54e_syn.jpg"></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="vh">Real</th>
+      <td><img src="1024/pancan/0029aa0c_real.jpg" alt="0029aa0c real" class="zoom" data-magnify-src="1024/pancan/0029aa0c_real.jpg"></td>
+      <td><img src="1024/pancan/15fd819d_real.jpg" alt="15fd819d real" class="zoom" data-magnify-src="1024/pancan/15fd819d_real.jpg"></td>
+      <td><img src="1024/pancan/2c1776b1_real.jpg" alt="2c1776b1 real" class="zoom" data-magnify-src="1024/pancan/2c1776b1_real.jpg"></td>
+      <td><img src="1024/pancan/41fbebf8_real.jpg" alt="41fbebf8 real" class="zoom" data-magnify-src="1024/pancan/41fbebf8_real.jpg"></td>
+      <td><img src="1024/pancan/5a48e700_real.jpg" alt="5a48e700 real" class="zoom" data-magnify-src="1024/pancan/5a48e700_real.jpg"></td>
+      <td><img src="1024/pancan/5c96f8e4_real.jpg" alt="5c96f8e4 real" class="zoom" data-magnify-src="1024/pancan/5c96f8e4_real.jpg"></td>
+      <td><img src="1024/pancan/7d7dc54e_real.jpg" alt="7d7dc54e real" class="zoom" data-magnify-src="1024/pancan/7d7dc54e_real.jpg"></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table class="table table-bordered align-middle text-center">
+  <thead>
+    <tr>
+      <th scope="row" class="vh">Synthetic</th>
+      <td><img src="1024/pancan/04bd4a81_syn.jpg" alt="04bd4a81 syn" class="zoom" data-magnify-src="1024/pancan/04bd4a81_syn.jpg"></td>
+      <td><img src="1024/pancan/1bd08a01_syn.jpg" alt="1bd08a01 syn" class="zoom" data-magnify-src="1024/pancan/1bd08a01_syn.jpg"></td>
+      <td><img src="1024/pancan/3b841f63_syn.jpg" alt="3b841f63 syn" class="zoom" data-magnify-src="1024/pancan/3b841f63_syn.jpg"></td>
+      <td><img src="1024/pancan/48bdc96d_syn.jpg" alt="48bdc96d syn" class="zoom" data-magnify-src="1024/pancan/48bdc96d_syn.jpg"></td>
+      <td><img src="1024/pancan/5b91b6e1_syn.jpg" alt="5b91b6e1 syn" class="zoom" data-magnify-src="1024/pancan/5b91b6e1_syn.jpg"></td>
+      <td><img src="1024/pancan/5d99c55b_syn.jpg" alt="5d99c55b syn" class="zoom" data-magnify-src="1024/pancan/5d99c55b_syn.jpg"></td>
+      <td><img src="1024/pancan/9d643e75_syn.jpg" alt="9d643e75 syn" class="zoom" data-magnify-src="1024/pancan/9d643e75_syn.jpg"></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="vh">Real</th>
+      <td><img src="1024/pancan/04bd4a81_real.jpg" alt="04bd4a81 real" class="zoom" data-magnify-src="1024/pancan/04bd4a81_real.jpg"></td>
+      <td><img src="1024/pancan/1bd08a01_real.jpg" alt="1bd08a01 real" class="zoom" data-magnify-src="1024/pancan/1bd08a01_real.jpg"></td>
+      <td><img src="1024/pancan/3b841f63_real.jpg" alt="3b841f63 real" class="zoom" data-magnify-src="1024/pancan/3b841f63_real.jpg"></td>
+      <td><img src="1024/pancan/48bdc96d_real.jpg" alt="48bdc96d real" class="zoom" data-magnify-src="1024/pancan/48bdc96d_real.jpg"></td>
+      <td><img src="1024/pancan/5b91b6e1_real.jpg" alt="5b91b6e1 real" class="zoom" data-magnify-src="1024/pancan/5b91b6e1_real.jpg"></td>
+      <td><img src="1024/pancan/5d99c55b_real.jpg" alt="5d99c55b real" class="zoom" data-magnify-src="1024/pancan/5d99c55b_real.jpg"></td>
+      <td><img src="1024/pancan/9d643e75_real.jpg" alt="9d643e75 real" class="zoom" data-magnify-src="1024/pancan/9d643e75_real.jpg"></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table class="table table-bordered align-middle text-center">
+  <thead>
+    <tr>
+      <th scope="row" class="vh">Synthetic</th>
+      <td><img src="1024/pancan/14d177e7_syn.jpg" alt="14d177e7 syn" class="zoom" data-magnify-src="1024/pancan/14d177e7_syn.jpg"></td>
+      <td><img src="1024/pancan/2b050d8c_syn.jpg" alt="2b050d8c syn" class="zoom" data-magnify-src="1024/pancan/2b050d8c_syn.jpg"></td>
+      <td><img src="1024/pancan/3f249866_syn.jpg" alt="3f249866 syn" class="zoom" data-magnify-src="1024/pancan/3f249866_syn.jpg"></td>
+      <td><img src="1024/pancan/4d0a4a3a_syn.jpg" alt="4d0a4a3a syn" class="zoom" data-magnify-src="1024/pancan/4d0a4a3a_syn.jpg"></td>
+      <td><img src="1024/pancan/5c8529d7_syn.jpg" alt="5c8529d7 syn" class="zoom" data-magnify-src="1024/pancan/5c8529d7_syn.jpg"></td>
+      <td><img src="1024/pancan/7c08c271_syn.jpg" alt="7c08c271 syn" class="zoom" data-magnify-src="1024/pancan/7c08c271_syn.jpg"></td>
+      <td><img src="1024/pancan/054a4902_syn.jpg" alt="054a4902 syn" class="zoom" data-magnify-src="1024/pancan/054a4902_syn.jpg"></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="vh">Real</th>
+      <td><img src="1024/pancan/14d177e7_real.jpg" alt="14d177e7 real" class="zoom" data-magnify-src="1024/pancan/14d177e7_real.jpg"></td>
+      <td><img src="1024/pancan/2b050d8c_real.jpg" alt="2b050d8c real" class="zoom" data-magnify-src="1024/pancan/2b050d8c_real.jpg"></td>
+      <td><img src="1024/pancan/3f249866_real.jpg" alt="3f249866 real" class="zoom" data-magnify-src="1024/pancan/3f249866_real.jpg"></td>
+      <td><img src="1024/pancan/4d0a4a3a_real.jpg" alt="4d0a4a3a real" class="zoom" data-magnify-src="1024/pancan/4d0a4a3a_real.jpg"></td>
+      <td><img src="1024/pancan/5c8529d7_real.jpg" alt="5c8529d7 real" class="zoom" data-magnify-src="1024/pancan/5c8529d7_real.jpg"></td>
+      <td><img src="1024/pancan/7c08c271_real.jpg" alt="7c08c271 real" class="zoom" data-magnify-src="1024/pancan/7c08c271_real.jpg"></td>
+      <td><img src="1024/pancan/054a4902_real.jpg" alt="054a4902 real" class="zoom" data-magnify-src="1024/pancan/054a4902_real.jpg"></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+</div>
+
+<br>
+
+
+<!-- Footer -->
+<footer class="mt-5 text-center">
+    <div class="container">
+        <a class="nav-link ms-3" href="/docs/publications/zoomldm">
+            <b>🔗 PixCell: A generative foundation model for digital histopathology images</b>
+        </a>
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

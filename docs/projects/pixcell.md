@@ -8,18 +8,32 @@ sidebar_label: 'PixCell - Generative foundation model'
     <div class="card bg-light"> 
         <div class="card-body justify-content-center">
             <h2 class="card-title text-center">Preprint</h2>
-            <h3 class="authors card-title text-center">Srikar Yellapragada<sup>1</sup>, Alexandros Graikos<sup>1</sup>, Zilinghan Li<sup>2</sup>, Kostas Triaridis<sup>1</sup>,\
-            Varun Belagali<sup>1</sup>, Saarthak Kapse<sup>1</sup>, Tarak Nath Nandi<sup>2,3</sup>, Ravi K Madduri<sup>2,3</sup>,\
-            Prateek Prasanna<sup>1</sup>, Tahsin Kurc<sup>1</sup>, Rajarsi R. Gupta<sup>1</sup>, Joel Saltz<sup>1</sup>, Dimitris Samaras<sup>1</sup></h3>
-            <h3 class="authors card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago</h3>
+            <h3 class="authors card-title text-center">
+              Srikar Yellapragada<sup>*1</sup>
+              Alexandros Graikos<sup>*1</sup>
+              Zilinghan Li<sup>2</sup>
+              Kostas Triaridis<sup>1</sup>\
+              Varun Belagali<sup>1</sup>
+              Tarak Nath Nandi<sup>2,3</sup>
+              Karen Bai<sup>1</sup>
+              Beatrice S. Knudsen<sup>4</sup>\
+              Tahsin Kurc<sup>1</sup>
+              Rajarsi R. Gupta<sup>1</sup>
+              Prateek Prasanna<sup>1</sup>
+              Ravi K. Madduri<sup>2,3</sup>
+              Joel Saltz<sup>1</sup>
+              Dimitris Samaras<sup>1</sup>
+            </h3> 
+            <h3 class="authors card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago, <sup>4</sup>University of Utah</h3>
             <div class="d-flex justify-content-center">
                 <a href="https://arxiv.org/abs/2506.05127" target="_blank"><button class="paper_button">arXiv</button> </a>
-                <a href="https://huggingface.co/StonyBrook-CVLab/PixCell-1024" target="_blank"><button class="paper_button">PixCell-1024 🤗</button></a>
-                <a href="https://huggingface.co/StonyBrook-CVLab/PixCell-256" target="_blank"><button class="paper_button">PixCell-256 🤗</button></a>
+                <a href="https://huggingface.co/collections/StonyBrook-CVLab/pixcell" target="_blank"><button class="paper_button">🤗 Models</button></a>
+                <a href="https://github.com/cvlab-stonybrook/PixCell" target="_blank"><button class="paper_button">Code</button></a>
             </div>
             <div class="d-flex justify-content-center">
-                <a href="https://huggingface.co/StonyBrook-CVLab/PixCell-256-Cell-ControlNet" target="_blank"><button class="paper_button">PixCell-256-Cell-ControlNet 🤗</button></a>
-                <a href="https://huggingface.co/datasets/StonyBrook-CVLab/Synthetic-SBU-1M" target="_blank"><button class="paper_button">Synthetic-SBU-1M 🤗</button></a>
+                <a href="/pages/pixcell_gen_images/gen_256.html" target="_blank"><button class="paper_button">256x256 Images</button></a>
+                <a href="/pages/pixcell_gen_images/gen_1024.html" target="_blank"><button class="paper_button">1024x1024 Images</button></a>
+                <a href="/pages/pixcell_gen_images/gen_4096.html" target="_blank"><button class="paper_button">4096x4096 Images</button></a>
             </div>
         </div>
     </div>
