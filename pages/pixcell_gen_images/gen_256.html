@@ -10,20 +10,30 @@
 </head>
 
 <style>
+    table {
+        table-layout: fixed;      /* forces equal/narrow columns */
+        width: 100%;
     /* vertical row headers */
     th.vh{
-    writing-mode: vertical-rl;
-    text-orientation: mixed;   /* keep Latin chars readable */
-    transform: rotate(180deg); /* makes it read top-to-bottom */
-    white-space: nowrap;
-    width: 1px;                /* keep it skinny */
-    padding: .5rem .25rem;
-    vertical-align: middle;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;   /* keep Latin chars readable */
+        transform: rotate(180deg); /* makes it read top-to-bottom */
+        white-space: nowrap;
+        width: 2vw;                /* keep it skinny */
+        padding: .5rem .25rem;
+        vertical-align: middle;
     }
 
     /* optional layout helpers */
-    td { white-space: nowrap; }
-    td img { max-height: 160px; width: auto; }
+    td {
+        white-space: nowrap;
+    }
+    td img {
+        display: block;           /* removes inline-gap */
+        margin: 0 auto;
+        height: auto;
+        max-width: 9vw; 
+    }
 
     .magnify > .magnify-lens {
       background-color: #fff !important; /* Prevent adjacent image from appearing in lens */
