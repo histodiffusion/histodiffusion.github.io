@@ -14,7 +14,12 @@
 
 <div class="container text-left">
 
-## <span class="badge text-bg-dark">arXiv</span> <span class="badge text-bg-success">New!</span>
+## <span class="badge text-bg-dark">NeurIPS 2026</span> <span class="badge text-bg-success">New!</span>
+# [BigCell: Generating Gigapixel Whole-Slide Images](./docs/projects/bigcell)
+  _Srikar Yellapragada, Alexandros Graikos, Zilinghan Li, Kostas Triaridis, Tarak Nath Nandi, Karen Bai, Beatrice Knudsen, Tahsin Kurc, Prateek Prasanna, Rajarsi R. Gupta, Ravi K. Madduri, Joel Saltz, Dimitris Samaras_
+  <br />
+
+## <span class="badge text-bg-dark">arXiv</span>
 # [PixCell: A generative foundation model for digital histopathology images](./docs/projects/pixcell)
   _Srikar Yellapragada, Alexandros Graikos, Zilinghan Li, Kostas Triaridis, Varun Belagali, Saarthak Kapse, Tarak Nath Nandi, Ravi K Madduri, Prateek Prasanna, Tahsin Kurc, Rajarsi R. Gupta, Joel Saltz, Dimitris Samaras_
   <br />

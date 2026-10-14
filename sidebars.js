@@ -22,6 +22,7 @@ const sidebars = {
       type: 'category',
       label: 'Projects',
       items: [
+          'projects/bigcell',
           'projects/pixcell',
           'projects/pathae',
           'projects/zoomldm',
