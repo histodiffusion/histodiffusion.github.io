@@ -20,10 +20,10 @@ sidebar_label: 'BigCell - Gigapixel WSI generation'
               Prateek Prasanna<sup>1</sup>\
               Rajarsi R. Gupta<sup>1</sup>
               Ravi K. Madduri<sup>2,3</sup>
-              Joel Saltz<sup>1</sup>
+              Joel Saltz<sup>1,5</sup>
               Dimitris Samaras<sup>1</sup>
             </h3> 
-            <h3 class="authors card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago, <sup>4</sup>University of Utah</h3>
+            <h3 class="authors card-text text-center"><sup>1</sup>Stony Brook University, <sup>2</sup>Argonne National Laboratory, <sup>3</sup>University of Chicago, <sup>4</sup>The University of Utah, <sup>5</sup>The University of North Carolina at Chapel Hill</h3>
             <div class="d-flex justify-content-center">
                 <a href="https://arxiv.org/abs/2610.14261" target="_blank"><button class="paper_button">arXiv</button> </a>
                 <a href="https://huggingface.co/collections/StonyBrook-CVLab/bigcell" target="_blank"><button class="paper_button">🤗 Models</button></a>
